@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App - V8</title>
+</head>
+<body>
+  <h1>Todo App - V8</h1>
+  <div>
+    <button onclick="handlers.displayTodos()">Display Todos</button>  
+    <button onclick="handlers.toggleAllTodos()">Toggle All Todos</button>  
+  </div>
+
+  <div>
+    <button onclick="handlers.addTodo()">Add</button>  
+    <input id="addTodoTextInput" type="text">
+  </div>
+  
+  <div>
+    <button onclick="handlers.changeTodo()">Change</button>  
+    <input id="changeTodoPositionInput" type="number" style="width: 40px; height: 20px;" min="1">
+    <input id="changeTodoTextInput" type="text">
+  </div>
+
+  <div>
+    <button onclick="handlers.deleteTodo()">Delete</button>  
+    <input id="deleteTodoPositionInput" type="number" style="width: 40px; height: 20px;" min="1">
+  </div>
+
+
+  <div>
+    <button onclick="handlers.toggleTodo()">Toggle</button>  
+    <input id="toggleTodoPositionInput" type="number" style="width: 40px; height: 20px;" min="1">
+  </div>
+
+  <script src="Todos V8 (Data from inputs).js"></script>
+</body>
+</html>
